@@ -7,6 +7,7 @@ body {
 #burger {
     display: none;
 }
+
 #logoimg {
     margin-top: -1px;
     margin-left: 135px;
@@ -111,14 +112,15 @@ p {
 /* mobile view design */
 
 @media only screen and (max-width: 600px) {
-    
+
     #burger {
         display: block;
     }
+
     #navbar svg {
         display: none;
     }
-    
+
     #html,
     body {
         overflow-x: hidden;
