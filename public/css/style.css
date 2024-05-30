@@ -1,0 +1,181 @@
+body {
+    font-family: 'inter';
+}
+
+/* navbar design */
+
+#burger {
+    display: none;
+}
+#logoimg {
+    margin-top: -1px;
+    margin-left: 135px;
+    cursor: pointer;
+}
+
+#logo {
+    font-size: 48px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.dot {
+    color: #FDCB6E;
+    padding-left: 30px;
+}
+
+#navbar {
+    display: flex;
+    width: 99.2vw;
+    -webkit-box-shadow: 0px 1px 1px #ADADAD;
+    -moz-box-shadow: 0px 1px 1px #ADADAD;
+    box-shadow: 0px 2px 2px #ADADAD;
+    height: 70px;
+    margin-left: -10px;
+}
+
+ul li {
+    font-weight: 700;
+    padding-left: 300px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+#signin {
+    color: white;
+    background-color: #6C5CE7;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 999px;
+    margin: 6px 135px 16px 300px;
+    cursor: pointer;
+}
+
+
+#navlist {
+    display: flex;
+    list-style: none;
+}
+
+.coloreditem {
+    color: #6C5CE7;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+/* section 2 design */
+
+#services {
+    display: flex;
+}
+
+.service {
+    margin: 50px 10px 10px 135px;
+}
+
+#headtext {
+    margin: 100px 0 0 135px;
+}
+
+#headtext1 {
+    font-size: 32px;
+}
+
+#headtext2 {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 24px
+}
+
+p {
+    font-size: 18px;
+}
+
+.servicebttn {
+    background-color: white;
+    color: #6C5CE7;
+    width: 146px;
+    height: 48px;
+    border-radius: 16px;
+    border: #ADADAD solid 1px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* mobile view design */
+
+@media only screen and (max-width: 600px) {
+    
+    #burger {
+        display: block;
+    }
+    #navbar svg {
+        display: none;
+    }
+    
+    #html,
+    body {
+        overflow-x: hidden;
+    }
+
+    #navbar {
+        width: 100vw;
+        height: 72px;
+    }
+
+    #navlist {
+        display: none;
+    }
+
+    #logo {
+        margin-left: 50px;
+        font-size: 40px;
+        margin-top: 8px;
+    }
+
+    #signin {
+        margin-left: 100px;
+        margin-right: 0;
+    }
+
+    #headtext {
+        margin-left: 0px;
+        margin-top: 50px;
+        width: 90vw;
+    }
+
+    #headtext1 {
+        font-size: 30px;
+        width: 90vw;
+    }
+
+    #headtext2 {
+        font-size: 18px;
+        width: 70vw;
+    }
+
+    #emojis {
+        display: none;
+    }
+
+    #since {
+        color: #6C5CE7;
+    }
+
+    #services {
+        display: inline;
+        width: 90vw;
+    }
+
+    .service {
+        margin-left: 0px;
+        flex: none;
+        width: 90vw;
+    }
+}
